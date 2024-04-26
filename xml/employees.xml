@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="employees.xsd">
+  <!--XML document that you want to validate against the schema. -->
+  <employee>
+    <id>E001</id>
+    <name>
+      <first>John</first>
+      <last>Doe</last>
+    </name>
+    <department>IT</department>
+    <salary>75000.00</salary>
+  </employee>
+  <employee>
+    <id>E002</id>
+    <name>
+      <first>Jane</first>
+      <last>Smith</last>
+    </name>
+    <department>HR</department>
+    <salary>12345</salary>
+  </employee>
+</company>
